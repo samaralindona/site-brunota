@@ -6,54 +6,54 @@ const textoResultado = document.querySelector('.textoResultado')
 
 const perguntas = [
     {
-        enunciado: " 1) Qual é a principal causa do aquecimento global?",
+        enunciado: " 1) Qual é um impacto comum da poluição do ar?",
         alternativas: [
             {
-            texto: "a) Queima de combustíveis fósseis",
-            afirmacao: "1) Correto, a queima de combustível fóssil é extremamente prejudicial ao meio ambiente."
+            texto: "a) Problemas respiratóros",
+            afirmacao: "1) Correto! A poluição do ar pode causar problemas respiratórios como asma e bronquite."
             },
             {
-            texto:"b) Uso excessivo de energia solar",
-            afirmacao: "1) Errado, ao contrário, o uso de energia solar é uma maneira de cuidarmos do meio ambiente."
+            texto:"b)  Diminuição da fertilidade do solo ",
+            afirmacao: "1) Errado. A poluição do ar não afeta diretamente a fertilidade do solo."
             },
             {
-            texto:"c) Reciclagem de lixo",
-            afirmacao: "1) Errado, a reciclagem diminue consideravelmente o estrago feito pelo ser humano na natureza."
+            texto:"c)  Aumento da biodiversidade",
+            afirmacao: "1) Errado. A poluição do ar geralmente reduz a biodiversidade, não a aumenta."
         }
     ]
     },
 
     {
-        enunciado: "2) Quais são alguns dos impactos das inundações?",
+        enunciado: "2) O que pode resultar do desmatamento?",
         alternativas: [
             {
-            texto:"a) Destruição de propriedades",
-            afirmacao: "2) Correto, infelizmente diversas propriedades são destruidas por inundações."
+            texto:"a) Recuperação rápida de solos ",
+            afirmacao: "2) Errado. O desmatamento frequentemente leva à degradação do solo, não à sua recuperação."
             },
             {
-            texto: "b) Aumento da biodiversidade",
-            afirmacao: "2) Errado, pelo contrário, a biodiversidade pode ser prejudicada por inundações."
+            texto: "b) Redução da biodiversidade",
+            afirmacao: "2) Correto! O desmatamento destrói habitats e reduz a diversidade de espécies."
             },
-            { texto:"c) Diminuição da erosão do solo",
-                afirmacao: "2) Errado, as inundações podem causar erosão no solo."
+            { texto:"c) Aumento dos níveis de água doce ",
+                afirmacao: "2) Errado. O desmatamento pode reduzir a capacidade de retenção de água e levar à diminuição dos níveis de água doce."
             }
         ]
            
     },
     {
-        enunciado: "3) Quais são algumas das consequências do desmatamento?",
+        enunciado: "3) Qual é um impacto das mudanças climáticas?",
         alternativas: [
             {
-            texto:"a) Perda de biodiversidade",
-            afirmacao: "3) Correto, a biodiversidade é diretamnete atacada pelo desmatamento."
+            texto:"a) Diminuição dos eventos climáticos extremos ",
+            afirmacao: "3) Errado. As mudanças climáticas tendem a aumentar a frequência e intensidade de eventos climáticos extremos."
         },
          {   
-            texto: "b) Diminuição das emissões de carbono",
-            afirmacao: "3) Errado, as emissões de carbono estão ligadas a queimadas, que podem piorar devido ao desmatanto."
+            texto: "b)  Alterações nos padrões de precipitação",
+            afirmacao: "3) Correto! Mudanças climáticas afetam padrões de precipitação, causando secas ou enchentes."
          },
          {
-          texto: "c) Melhoria na qualidade do solo",
-          afirmacao: "3) Errado, o desmatamento pode prejudicar a qualidade do solo."
+          texto: "c) Estabilização das temperaturas globais",
+          afirmacao: "3) Errado. As mudanças climáticas estão causando um aumento nas temperaturas globais, não uma estabilização."
          }
         ]
     },
