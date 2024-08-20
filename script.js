@@ -92,7 +92,7 @@ function mostraAlternativas() {
     }
 
     function mostraResultado(){
-        caixaPerguntas.textContent = "Seu Resultado :)";
+        caixaPerguntas.textContent = "Seu Resultado <3";
         textoResultado.textContent = historiaFinal;
         caixaAternativas.textContent = "";
     }
